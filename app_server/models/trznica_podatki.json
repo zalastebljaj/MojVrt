@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "ime": "Jožica Novak",
+        "datum": [],
+        "imam": ["10 sadik ledenke", "5 sadik radiča"],
+        "iscem": ["sadike jagode"],
+        "sporocilo": []
+    },
+    {
+        "id": 2,
+        "ime": "Francka Koren",
+        "datum": [],
+        "imam": [],
+        "iscem": ["sadike paradižnikov"],
+        "sporocilo": []
+    },
+    {
+        "id": 3,
+        "ime": "Jožica Novak",
+        "datum": [],
+        "imam": ["preveč jabolk"],
+        "iscem": [],
+        "sporocilo": []
+    }
+]

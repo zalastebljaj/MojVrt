@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "ime": "Francka Koren",
+        "datum": [],
+        "vprasanje": "Včeraj so mi polži spet napadli solato. Požrli so mi 8 od 10 posajenih sadik. Ima kdo mogoče kakšen nasvet kako jih pregnati?",
+        "komentarji": [{"id": 2, "ime": "Jožica Novak", "datum": [], "odgovor": "Joj mi je res žal. Jaz imam tudi podobne probleme, ponavadi uporabljam kakšne preparate iz trgovine, pa niti niso vedno učinkoviti. Tako da če ima kdo kakšno boljšo rešitev, tudi mene zanima."},
+                        {"id": 3, "ime": "Štefka Kvak", "datum": [], "odgovor": "Jaz imam pa doma račko in use poje. Sicer moraš paziti, da ti ne poje tudi kakšne zelenjave, ampak jaz priporočam:)"},
+                        {"id": 5, "ime": "Francka Koren", "datum": [], "odgovor": "To se pa sliši zanimivo, bom definitivno preverila ali bi to šlo. Hvala za nasvet!"}]
+    },
+    {
+        "id": 4,
+        "ime": "Štefka Kvak",
+        "datum": [],
+        "vprasanje": "Mene pa zanima kako vi gnojite paradižnike in paprike. Vidim pri sosedih, da imajo res velike in lepe, moji pa kar nekako kilavo izgledajo.",
+        "komentarji": [{"id": 6, "ime":"Jožica Novak", "datum": [], "odgovor": "Jaz imam srečo, da živim bolj na vasi. Od soseda dobim konjski gnoj, to je bilo do zdaj še najbolj učinkovito."}]
+    }
+]
