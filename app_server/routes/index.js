@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
+var ctrlTrznica = require("../controllers/trznica");
+
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get("/trznica-seznam", ctrlTrznica.seznam);
 
 module.exports = router;
