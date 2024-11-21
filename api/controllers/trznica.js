@@ -1,4 +1,4 @@
-var ponudbe = require("../models/trznica_podatki.json");
+import ponudbe from "../models/trznica_podatki.json" assert { type : "json"};
 
 // Vrni seznam ponudb
 var seznam = (req, res) => {
@@ -11,4 +11,6 @@ var seznam = (req, res) => {
 }
 
 
-module.exports = {seznam};
+export default {
+    seznam
+};

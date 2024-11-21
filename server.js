@@ -1,18 +1,20 @@
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+import express from "express";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+import cookieParser from "cookie-parser";
+import logger from "morgan";
 
-var indexRouter = require('./app_server/routes/index');
+import apiRouter from "./api/routes/index.js";
 
-var app = express();
+var server = express();
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+server.use(logger('dev'));
+server.use(express.json());
+server.use(express.urlencoded({ extended: false }));
+server.use(cookieParser());
+server.use(express.static(join(__dirname, 'public')));
 
-app.use('/', indexRouter);
+server.use('/api', apiRouter);
 
-module.exports = app;
+export default server;
