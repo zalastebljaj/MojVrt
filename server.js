@@ -4,6 +4,9 @@ import { fileURLToPath } from "url";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
 
+// Povezemo se na bazo
+import "./api/models/db.js";
+
 import apiRouter from "./api/routes/index.js";
 
 var server = express();

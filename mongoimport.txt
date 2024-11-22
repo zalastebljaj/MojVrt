@@ -1,0 +1,3 @@
+// Uvoz zacetnih ponudb iz mape /data/trznica_podatki.json
+//     s pomočjo ukaza mongoimport
+mongoimport --db MojVrt --collection Ponudbe --mode upsert --upsertFields ime,imam --jsonArray --file data/trznica_podatki.json
